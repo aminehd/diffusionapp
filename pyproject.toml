@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "diffusionapp"
+version = "0.1.0"
+description = ""
+authors = ["Amineh Dadsetan <amineh.dadsetan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10" 
+torch = "^2.5.1"
+tqdm = "^4.67.1"
+torchvision = "^0.20.1"
+matplotlib = "^3.10.0"
+numpy = "^2.2.1"
+ipython = "^8.31.0"
+Flask = "^3.1.0"
+Flask-Cors = "^5.0.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
